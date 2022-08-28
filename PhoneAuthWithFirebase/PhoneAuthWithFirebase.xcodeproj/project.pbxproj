@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B4F8A233AB7EA66C2B496A0 /* Pods_PhoneAuthWithFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A23C1DC8437ABB7C80B5C098 /* Pods_PhoneAuthWithFirebase.framework */; };
+		DCB380C028BA46E400A5B1F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB380BF28BA46E400A5B1F9 /* AppDelegate.swift */; };
+		DCB380C228BA46E400A5B1F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB380C128BA46E400A5B1F9 /* SceneDelegate.swift */; };
+		DCB380C928BA46E500A5B1F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB380C828BA46E500A5B1F9 /* Assets.xcassets */; };
+		DCB380CC28BA46E500A5B1F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB380CA28BA46E500A5B1F9 /* LaunchScreen.storyboard */; };
+		DCDE886A28BA4A740065515C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCDE886928BA4A740065515C /* GoogleService-Info.plist */; };
+		DCDE886C28BA4ADF0065515C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE886B28BA4ADF0065515C /* AuthManager.swift */; };
+		DCDE886E28BA66120065515C /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE886D28BA66120065515C /* PhoneNumberViewController.swift */; };
+		DCDE887128BA67400065515C /* SMSCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE887028BA67400065515C /* SMSCodeViewController.swift */; };
+		DCDE887328BA676E0065515C /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE887228BA676E0065515C /* UserViewController.swift */; };
+		DCDE889228BADFE00065515C /* MaskNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDE889128BADFDF0065515C /* MaskNumber.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183A36BC330EFDD514F8ED6E /* Pods-PhoneAuthWithFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuthWithFirebase.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuthWithFirebase/Pods-PhoneAuthWithFirebase.release.xcconfig"; sourceTree = "<group>"; };
+		A23C1DC8437ABB7C80B5C098 /* Pods_PhoneAuthWithFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuthWithFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB380BC28BA46E400A5B1F9 /* PhoneAuthWithFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuthWithFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB380BF28BA46E400A5B1F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB380C128BA46E400A5B1F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DCB380C828BA46E500A5B1F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB380CB28BA46E500A5B1F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB380CD28BA46E500A5B1F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDE886928BA4A740065515C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCDE886B28BA4ADF0065515C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		DCDE886D28BA66120065515C /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		DCDE887028BA67400065515C /* SMSCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSCodeViewController.swift; sourceTree = "<group>"; };
+		DCDE887228BA676E0065515C /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		DCDE889128BADFDF0065515C /* MaskNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskNumber.swift; sourceTree = "<group>"; };
+		FDBED22E0527D36E4DBBA371 /* Pods-PhoneAuthWithFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuthWithFirebase.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuthWithFirebase/Pods-PhoneAuthWithFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB380B928BA46E400A5B1F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4F8A233AB7EA66C2B496A0 /* Pods_PhoneAuthWithFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98C085F38D83CCD3A89E28A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDBED22E0527D36E4DBBA371 /* Pods-PhoneAuthWithFirebase.debug.xcconfig */,
+				183A36BC330EFDD514F8ED6E /* Pods-PhoneAuthWithFirebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DCB380B328BA46E400A5B1F9 = {
+			isa = PBXGroup;
+			children = (
+				DCB380BE28BA46E400A5B1F9 /* PhoneAuthWithFirebase */,
+				DCB380BD28BA46E400A5B1F9 /* Products */,
+				98C085F38D83CCD3A89E28A9 /* Pods */,
+				E2FA180D6F7AAD86C9857121 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB380BD28BA46E400A5B1F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB380BC28BA46E400A5B1F9 /* PhoneAuthWithFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB380BE28BA46E400A5B1F9 /* PhoneAuthWithFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE887428BA67DF0065515C /* App */,
+				DCDE886F28BA664E0065515C /* Views */,
+				DCDE886928BA4A740065515C /* GoogleService-Info.plist */,
+				DCB380C828BA46E500A5B1F9 /* Assets.xcassets */,
+				DCB380CA28BA46E500A5B1F9 /* LaunchScreen.storyboard */,
+				DCB380CD28BA46E500A5B1F9 /* Info.plist */,
+				DCDE886B28BA4ADF0065515C /* AuthManager.swift */,
+				DCDE889128BADFDF0065515C /* MaskNumber.swift */,
+			);
+			path = PhoneAuthWithFirebase;
+			sourceTree = "<group>";
+		};
+		DCDE886F28BA664E0065515C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCDE886D28BA66120065515C /* PhoneNumberViewController.swift */,
+				DCDE887028BA67400065515C /* SMSCodeViewController.swift */,
+				DCDE887228BA676E0065515C /* UserViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCDE887428BA67DF0065515C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DCB380BF28BA46E400A5B1F9 /* AppDelegate.swift */,
+				DCB380C128BA46E400A5B1F9 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E2FA180D6F7AAD86C9857121 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A23C1DC8437ABB7C80B5C098 /* Pods_PhoneAuthWithFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB380BB28BA46E400A5B1F9 /* PhoneAuthWithFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB380D028BA46E500A5B1F9 /* Build configuration list for PBXNativeTarget "PhoneAuthWithFirebase" */;
+			buildPhases = (
+				B319787CC608AFA1097B06FF /* [CP] Check Pods Manifest.lock */,
+				DCB380B828BA46E400A5B1F9 /* Sources */,
+				DCB380B928BA46E400A5B1F9 /* Frameworks */,
+				DCB380BA28BA46E400A5B1F9 /* Resources */,
+				C6EE41F6A973F762DE6762A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAuthWithFirebase;
+			productName = PhoneAuthWithFirebase;
+			productReference = DCB380BC28BA46E400A5B1F9 /* PhoneAuthWithFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB380B428BA46E400A5B1F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DCB380BB28BA46E400A5B1F9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = DCB380B728BA46E400A5B1F9 /* Build configuration list for PBXProject "PhoneAuthWithFirebase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB380B328BA46E400A5B1F9;
+			productRefGroup = DCB380BD28BA46E400A5B1F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB380BB28BA46E400A5B1F9 /* PhoneAuthWithFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB380BA28BA46E400A5B1F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB380CC28BA46E500A5B1F9 /* LaunchScreen.storyboard in Resources */,
+				DCDE886A28BA4A740065515C /* GoogleService-Info.plist in Resources */,
+				DCB380C928BA46E500A5B1F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B319787CC608AFA1097B06FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneAuthWithFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6EE41F6A973F762DE6762A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthWithFirebase/Pods-PhoneAuthWithFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthWithFirebase/Pods-PhoneAuthWithFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthWithFirebase/Pods-PhoneAuthWithFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB380B828BA46E400A5B1F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDE887128BA67400065515C /* SMSCodeViewController.swift in Sources */,
+				DCDE887328BA676E0065515C /* UserViewController.swift in Sources */,
+				DCDE889228BADFE00065515C /* MaskNumber.swift in Sources */,
+				DCDE886E28BA66120065515C /* PhoneNumberViewController.swift in Sources */,
+				DCDE886C28BA4ADF0065515C /* AuthManager.swift in Sources */,
+				DCB380C028BA46E400A5B1F9 /* AppDelegate.swift in Sources */,
+				DCB380C228BA46E400A5B1F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCB380CA28BA46E500A5B1F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB380CB28BA46E500A5B1F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB380CE28BA46E500A5B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB380CF28BA46E500A5B1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB380D128BA46E500A5B1F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDBED22E0527D36E4DBBA371 /* Pods-PhoneAuthWithFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FC2VZ65V5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuthWithFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mwd.PhoneAuthWithFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB380D228BA46E500A5B1F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183A36BC330EFDD514F8ED6E /* Pods-PhoneAuthWithFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FC2VZ65V5L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuthWithFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mwd.PhoneAuthWithFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB380B728BA46E400A5B1F9 /* Build configuration list for PBXProject "PhoneAuthWithFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB380CE28BA46E500A5B1F9 /* Debug */,
+				DCB380CF28BA46E500A5B1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB380D028BA46E500A5B1F9 /* Build configuration list for PBXNativeTarget "PhoneAuthWithFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB380D128BA46E500A5B1F9 /* Debug */,
+				DCB380D228BA46E500A5B1F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB380B428BA46E400A5B1F9 /* Project object */;
+}

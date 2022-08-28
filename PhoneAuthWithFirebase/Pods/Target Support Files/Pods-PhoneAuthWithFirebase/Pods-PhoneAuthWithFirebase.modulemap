@@ -1,0 +1,6 @@
+framework module Pods_PhoneAuthWithFirebase {
+  umbrella header "Pods-PhoneAuthWithFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
