@@ -7,7 +7,8 @@
 [
 <img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/PhoneNumber.png" width="150" hedth="300">,
 <img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/WithPhoneWithBoard.png" width="150" hedth="300">,
-<img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/Registration.png" width="150" hedth="300">
-<img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/VerifyCode.png" width="150" hedth="300">
-<img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/User.png" width="150" hedth="300">
+<img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/Registration.png" width="150" hedth="300">,
+<img src="https://github.com/MikkiWhiteDove/LikeNews/blob/main/Screens/Push.jpg" width="150" hedth="300">,
+<img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/VerifyCode.png" width="150" hedth="300">,
+<img src="https://github.com/MikkiWhiteDove/winfox/blob/main/Screens/User.png" width="150" hedth="300">,
 ]
